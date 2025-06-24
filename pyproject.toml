@@ -1,0 +1,26 @@
+
+[project]
+name = "k1ng-final-analyzer"
+version = "1.0.0"
+description = "Next-gen AI viral video analyzer (offline)"
+authors = [{ name="Burnabee Media", email="team@burnabee.com" }]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "streamlit>=1.30.0",
+    "opencv-python>=4.9.0",
+    "librosa>=0.10.1",
+    "pydub>=0.25.1",
+    "matplotlib>=3.8.0",
+    "plotly>=5.19.0",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "pandas>=2.1.0",
+    "mediapipe>=0.10.10"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

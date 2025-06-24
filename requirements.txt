@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+librosa
+pydub
+matplotlib
+plotly
+numpy
+scipy
+pandas
+mediapipe
